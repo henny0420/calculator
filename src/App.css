@@ -1,0 +1,10 @@
+ body {
+                    font-family: 'Inter', sans-serif;
+                    -webkit-tap-highlight-color: transparent; /* Removes blue highlight on mobile tap */
+                }
+                .calculator-button {
+                    transition: all 0.2s ease-in-out;
+                }
+                .calculator-button:active {
+                    transform: scale(0.95);
+                }
